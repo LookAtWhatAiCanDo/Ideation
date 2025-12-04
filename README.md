@@ -1,4 +1,4 @@
-# Streaming
+# LookAtWhatAiCanDo Ideation
 
 See also [github.com/NightVsKnight/Streaming](https://github.com/NightVsKnight/Streaming)
 
