@@ -3,10 +3,10 @@
 ## The Seed Prompt (≤500 characters)
 
 ```
-Create cross-platform Voice WebRTC AI Programmer (Android/iOS/Desktop). Scaffold: src/webrtc/ (mic streaming), src/realtime/ (OpenAI Realtime API client), src/mcp/ (MCP protocol), src/github/ (Copilot integration), src/ui/ (connect, mic toggle, logs, repo selector). Add README.md, docs/FRAMEWORK_EVAL.md (compare Flutter/KMP/Qt/ReactNative: WebRTC, Realtime API, MCP, cross-platform, dev experience, ecosystem). Voice→Realtime→MCP→Copilot→code workflow.
+Create cross-platform Voice WebRTC AI Programmer (Android/iOS/Desktop). Scaffold: src/webrtc/ (mic streaming), src/realtime/ (OpenAI Realtime API client), src/mcp/ (MCP protocol), src/github/ (Copilot integration), src/ui/ (connect, mic toggle, logs, repo selector), tests/, .github/workflows/. Add README.md, docs/FRAMEWORK_EVAL.md (compare Flutter/KMP/Qt/ReactNative: WebRTC, Realtime API, MCP, cross-platform, dev experience, ecosystem). Voice→Realtime→MCP→Copilot→code workflow.
 ```
 
-**Character Count:** 454 characters ✓
+**Character Count:** 482 characters ✓
 
 ## What This Prompt Creates
 
@@ -24,6 +24,8 @@ This seed prompt instructs GitHub Copilot to scaffold a complete repository stru
 - `src/mcp/` - Model Context Protocol client
 - `src/github/` - GitHub Copilot integration layer
 - `src/ui/` - User interface components
+- `tests/` - Test suite for all components
+- `.github/workflows/` - CI/CD automation (testing, linting, builds)
 
 ### 3. **Essential UI Features**
 - Connection status indicator
@@ -82,7 +84,7 @@ To use this seed prompt with GitHub Copilot:
 
 1. Create a new repository
 2. Open GitHub Copilot Chat
-3. Paste the seed prompt (the 454-character text above)
+3. Paste the seed prompt (the 482-character text above)
 4. Let Copilot generate the initial structure
 5. Review and commit the scaffolded files
 6. Begin issue-based development
@@ -113,12 +115,13 @@ The evaluation will produce a written recommendation with justification, enablin
 - **Testability**: Clear boundaries enable focused unit testing
 - **Documentation-Driven**: Framework decision doc guides early architectural choices
 
-### Why 454 Characters?
+### Why 482 Characters?
 - Meets the ≤500 character constraint
 - Provides sufficient detail for comprehensive scaffolding
 - Includes all critical components
 - Specifies framework evaluation instead of premature choice
 - Defines clear workflow and directory structure
+- Includes test infrastructure and CI/CD foundation
 
 ## Success Criteria
 
@@ -131,7 +134,7 @@ The repository created from this prompt should enable:
 - ✓ Foundation for issue-based iterative development
 - ✓ Path to MVP clearly defined
 
-This seed prompt (454 characters) successfully captures all essential requirements while staying within the 500-character limit and respecting the issue's requirement to evaluate frameworks before making a decision.
+This seed prompt (482 characters) successfully captures all essential requirements while staying within the 500-character limit and respecting the issue's requirement to evaluate frameworks before making a decision.
 
 ## Framework Alternatives to Evaluate
 
